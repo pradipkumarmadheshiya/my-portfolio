@@ -1,4 +1,4 @@
-import {} from "../assets"
+import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, todo, vs_code, github, git, figma, dsa, soft_skills} from "../assets"
 
 export const navLinks=[
     {
@@ -23,3 +23,124 @@ export const navLinks=[
     }
 ]
 
+const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Chakra UI",
+      icon: chakra_ui,
+    },
+
+  ];
+
+  const projects = [
+    {
+      name: "GreenCart",
+      description:
+        [
+          "A e-commerce website having clean and intuitive homepage featuring promotional banners and call-to-action buttons.",
+          "Category-based product browsing to easily explore groceries, beverages, dairy, and more.",
+          "Product search functionality and user/cart icons for seamless navigation.",
+          "Seller dashboard and user profile access included in the navbar."
+        ],
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: greencart,
+      source_code_link: "https://github.com/pradipkumarmadheshiya/greencart",
+      live_link: "https://greencart-drab-eta.vercel.app/"
+    },
+    {
+      name: "Todo App",
+      description:
+        [
+          "Add tasks with customizable priority levels (low, medium, high).",
+          "Update task statuses (Pending or Completed).",
+          "Archive tasks to a separate view and restore them anytime.",
+          "Filter archived tasks by priority and status.",
+          "Delete tasks permanently from the archive."
+        ],
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/pradipkumarmadheshiya/Todo_app_using_localstorage",
+      live_link: "https://todo-app-using-localstorage.vercel.app/"
+    },
+  ];  
+
+const tools=[
+  {
+    name: "VS Code",
+    icon: vs_code,
+  },
+  {
+    name: "Github",
+    icon: github,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "Figma",
+    icon: figma,
+  },
+]
+
+const statistics=[
+  {
+    name: "600+ DSA Problems",
+    icon: dsa,
+  },
+  {
+    name: "100+ hours Soft Skills",
+    icon: soft_skills,
+  }
+]
+
+  export { technologies, projects, tools, statistics };

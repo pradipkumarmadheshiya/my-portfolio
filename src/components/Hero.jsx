@@ -22,20 +22,20 @@ const Hero = () => {
             <a className=" flex justify-center items-center gap-2 w-fit bg-[#915eff] text-white px-4 py-2 rounded hover:bg-[#854dff] transition cursor-pointer z-10"
               href="/pradip_resume.pdf"
               target='_blank'>
-              <FaEye className='text-white text-[16px]'/>Resume
+              <FaEye className='text-white text-[14px] sm:text-[16px]'/>Resume
             </a>
             <a
               href="/pradip_resume.pdf"
               download="pradip_resume.pdf"
               className=" flex justify-center items-center gap-2 w-fit bg-[#915eff] text-white px-4 py-2 rounded hover:bg-[#854dff] transition cursor-pointer z-10">
-              <FaDownload className='text-white text-[16px]'/>Resume
+              <FaDownload className='text-white text-[14px] sm:text-[16px]'/>Resume
             </a>
           </div>
         </div>
       </div>
       <ComputersCanvas/>
       <div 
-        className='absolute xs:bottom-4 bottom-6 w-full flex justify-center items-center'>
+        className='absolute xs:bottom-4 bottom-6 w-full flex justify-center items-center cursor-pointer z-10'>
         <a href="#about">
           <div className='w-[28px] h-[50px] rounded-3xl border-3 border-secondary flex justify-center items-start p-2 '>
             <motion.div

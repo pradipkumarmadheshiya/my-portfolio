@@ -8,7 +8,7 @@ import { SectionWrapper } from '../hoc'
 
 const About = () => {
   return (
-    <div className='mt-12'>
+    <>
       <motion.div variants={textVariant()}>
         <h1 className={`${style.sectionHeadText}`}>About Me</h1>
       </motion.div>
@@ -30,14 +30,14 @@ const About = () => {
           </Tilt>
         </div>
         <motion.p variants={fadeIn("", "", 0.1, 1)}
-        className='text-secondary text-[17px] leading [30px] max-w-3xl'>
+        className='text-secondary text-[15px] sm:text-[17px] leading [30px] max-w-3xl'>
         Front-end Developer with hands-on experience in building responsive and user-friendly web applications. Gained a solid
   understanding of data structures and algorithms using Python, along with proficiency in front-end technologies such as
   HTML, CSS, JavaScript, React, Redux, Tailwind CSS, and Chakra UI. Developed multiple projects, including e-commerce websites.
   Eager to contribute to a dynamic development team and grow as a Front-end Developer.
         </motion.p>
       </div>
-    </div>
+    </>
   )
 }
 

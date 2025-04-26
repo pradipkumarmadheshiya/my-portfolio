@@ -6,7 +6,7 @@ import { staggerContainer } from "../utils/motion";
 const SectionWrapper = (Component, idName) => {
   const Wrapped = () => (
     <motion.section
-      variants={staggerContainer(0.2, 0.2)}
+      variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}

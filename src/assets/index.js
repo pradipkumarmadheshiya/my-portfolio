@@ -12,6 +12,14 @@ import reactjs from "./reactjs.png";
 import redux from "./redux.png";
 import tailwind from "./tailwind.png";
 import pradip from "./pradip.png"
+import chakra_ui from "./chakra_ui.png"
+import git from "./git.svg"
+import figma from "./figma.png"
+import todo from "./todo.JPG"
+import greencart from "./greencart.JPG"
+import vs_code from "./vs_code.png"
+import dsa from "./dsa.JPG"
+import soft_skills from "./soft_skills.png"
 
 export {
   github,
@@ -27,5 +35,13 @@ export {
   reactjs,
   redux,
   tailwind,
-  pradip
+  pradip,
+  chakra_ui,
+  git,
+  figma,
+  todo,
+  greencart,
+  vs_code,
+  dsa,
+  soft_skills
 }
