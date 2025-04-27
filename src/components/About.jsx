@@ -1,5 +1,5 @@
 import React from 'react'
-import {Tilt} from "react-tilt"
+import Tilt from 'react-parallax-tilt'
 import {motion} from "framer-motion"
 import { style } from '../style'
 import {fadeIn, textVariant} from "../utils/motion"

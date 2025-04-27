@@ -19,14 +19,14 @@ const Footer = () => {
             <div className='flex gap-4 mt-4'>
                 {
                     social_links.map((link, index)=>(
-                        <a href={link.link} target="_blank" >
+                        <a key={index} href={link.link} target="_blank" >
                             <img src={link.icon} alt={link.name}
                             className='w-8'/>
                         </a>
                     ))
                 }
             </div>
-            <p className='mt-4 text-gray-600'>Thanks for visiting my Portfolio. Made with <FavoriteIcon/> by Pradip.</p>
+            <p className='mt-4'>Thanks for visiting my Portfolio. Made with <FavoriteIcon/> by Pradip.</p>
         </div>
     </div>
   )
