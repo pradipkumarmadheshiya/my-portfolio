@@ -3,7 +3,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import herobg from "./herobg.png"
 import logo from "./logo.png"
-import download from "./download.png"
 import css from "./css.png";
 import html from "./html.png";
 import javascript from "./javascript.png";
@@ -20,6 +19,9 @@ import greencart from "./greencart.JPG"
 import vs_code from "./vs_code.png"
 import dsa from "./dsa.JPG"
 import soft_skills from "./soft_skills.png"
+import hackerrank from "./hackerrank.png"
+import leetcode from "./leetcode.png"
+import linkedin from "./linkedin.png"
 
 export {
   github,
@@ -27,7 +29,6 @@ export {
   close,
   herobg,
   logo,
-  download,
   css,
   html,
   javascript,
@@ -43,5 +44,8 @@ export {
   greencart,
   vs_code,
   dsa,
-  soft_skills
+  soft_skills,
+  hackerrank,
+  leetcode,
+  linkedin
 }

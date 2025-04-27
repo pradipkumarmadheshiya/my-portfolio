@@ -1,4 +1,4 @@
-import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, todo, vs_code, github, git, figma, dsa, soft_skills} from "../assets"
+import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, todo, vs_code, github, git, figma, dsa, soft_skills, linkedin, hackerrank, leetcode} from "../assets"
 
 export const navLinks=[
     {
@@ -143,4 +143,27 @@ const statistics=[
   }
 ]
 
-  export { technologies, projects, tools, statistics };
+const social_links=[
+  {
+    name: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/pradip-kumar-madheshiya-pradip/"
+  },
+  {
+    name: "Github",
+    icon: github,
+    link: "https://github.com/pradipkumarmadheshiya"
+  },
+  {
+    name: "Leetcode",
+    icon: leetcode,
+    link: "https://leetcode.com/u/pradip_kumar_madheshiya/"
+  },
+  {
+    name: "HackerRank",
+    icon: hackerrank,
+    link: "https://www.hackerrank.com/profile/prdpmadheshiya"
+  }
+]
+
+  export { technologies, projects, tools, statistics, social_links };
