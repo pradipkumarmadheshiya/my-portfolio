@@ -1,4 +1,4 @@
-import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, todo, vs_code, github, git, figma, dsa, soft_skills, linkedin, hackerrank, leetcode} from "../assets"
+import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, todo, vs_code, github, git, figma, dsa, soft_skills, linkedin, hackerrank, leetcode, instantgram} from "../assets"
 
 export const navLinks=[
     {
@@ -82,6 +82,29 @@ const technologies = [
       image: greencart,
       source_code_link: "https://github.com/pradipkumarmadheshiya/greencart",
       live_link: "https://greencart-drab-eta.vercel.app/"
+    },
+    {
+      name: "Instantgram",
+      description:
+        [
+          "Built a fully functional social media app using React and Tailwind CSS, featuring post creation, editing, and interaction (like/save).",
+          "Designed a responsive, mobile-friendly UI inspired by Instagram, with clean navigation and sidebar-based layout for seamless user experience.",
+          "Implemented core social features like Home Feed, Explore, People, Saved Posts, showcasing component-based architecture and React Router.",
+          
+        ],
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: instantgram,
+      source_code_link: "https://github.com/pradipkumarmadheshiya/instantgram",
+      live_link: "https://instantgram-psi.vercel.app/"
     },
     {
       name: "Todo App",

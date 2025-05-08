@@ -22,6 +22,7 @@ import dsa from "./dsa.png"
 import hackerrank from "./hackerrank.png"
 import leetcode from "./leetcode.png"
 import linkedin from "./linkedin.png"
+import instantgram from "./instantgram.JPG"
 
 export {
   github,
@@ -47,5 +48,6 @@ export {
   soft_skills,
   hackerrank,
   leetcode,
-  linkedin
+  linkedin,
+  instantgram
 }
