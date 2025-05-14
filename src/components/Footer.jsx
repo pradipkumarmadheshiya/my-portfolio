@@ -21,7 +21,7 @@ const Footer = () => {
                     social_links.map((link, index)=>(
                         <a key={index} href={link.link} target="_blank" >
                             <img src={link.icon} alt={link.name}
-                            className='w-8'/>
+                            className='w-6 h-6'/>
                         </a>
                     ))
                 }
