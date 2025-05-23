@@ -14,7 +14,6 @@ import pradip from "./pradip.png"
 import chakra_ui from "./chakra_ui.png"
 import git from "./git.svg"
 import figma from "./figma.png"
-import todo from "./todo.JPG"
 import greencart from "./greencart.JPG"
 import vs_code from "./vs_code.png"
 import soft_skills from "./soft_skills.png"
@@ -23,6 +22,7 @@ import hackerrank from "./hackerrank.png"
 import leetcode from "./leetcode.png"
 import linkedin from "./linkedin.png"
 import instantgram from "./instantgram.JPG"
+import shopsmart from "./shopsmart.JPG"
 
 export {
   github,
@@ -41,7 +41,6 @@ export {
   chakra_ui,
   git,
   figma,
-  todo,
   greencart,
   vs_code,
   dsa,
@@ -49,5 +48,6 @@ export {
   hackerrank,
   leetcode,
   linkedin,
-  instantgram
+  instantgram,
+  shopsmart
 }

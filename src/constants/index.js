@@ -1,4 +1,4 @@
-import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, todo, vs_code, github, git, figma, dsa, soft_skills, linkedin, hackerrank, leetcode, instantgram} from "../assets"
+import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, vs_code, github, git, figma, dsa, soft_skills, linkedin, hackerrank, leetcode, instantgram, shopsmart} from "../assets"
 
 export const navLinks=[
     {
@@ -107,32 +107,27 @@ const technologies = [
       live_link: "https://instantgram-psi.vercel.app/"
     },
     {
-      name: "Todo App",
+      name: "ShopSmart",
       description:
         [
-          "Add tasks with customizable priority levels (low, medium, high).",
-          "Update task statuses (Pending or Completed).",
-          "Archive tasks to a separate view and restore them anytime.",
-          "Filter archived tasks by priority and status.",
-          "Delete tasks permanently from the archive."
+          "Sleek and responsive eCommerce platform for smart shopping.",
+          "Browse products, view details, and manage cart effortlessly.",
+          "Smooth checkout flow with dynamic state updates using React.",
+          "Styled with Tailwind CSS for a clean, modern user experience."
         ],
       tags: [
         {
-          name: "html",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: todo,
-      source_code_link: "https://github.com/pradipkumarmadheshiya/Todo_app_using_localstorage",
-      live_link: "https://todo-app-using-localstorage.vercel.app/"
+      image: shopsmart,
+      source_code_link: "https://github.com/pradipkumarmadheshiya/ShopSmart",
+      live_link: "https://shop-smart-one.vercel.app/"
     },
   ];  
 
