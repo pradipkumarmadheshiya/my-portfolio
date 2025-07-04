@@ -21,8 +21,11 @@ import dsa from "./dsa.png"
 import hackerrank from "./hackerrank.png"
 import leetcode from "./leetcode.png"
 import linkedin from "./linkedin.png"
-import instantgram from "./instantgram.JPG"
 import shopsmart from "./shopsmart.JPG"
+import nodejs from "./nodejs.svg"
+import expressjs from "./expressjs.svg"
+import mongodb from "./mongodb.svg"
+import uber_clone from "./uber_clone.JPG"
 
 export {
   github,
@@ -48,6 +51,9 @@ export {
   hackerrank,
   leetcode,
   linkedin,
-  instantgram,
-  shopsmart
+  shopsmart,
+  nodejs,
+  expressjs,
+  mongodb,
+  uber_clone
 }

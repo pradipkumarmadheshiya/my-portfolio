@@ -1,4 +1,4 @@
-import {html, css, javascript, python, reactjs, redux, tailwind, chakra_ui, greencart, vs_code, github, git, figma, dsa, soft_skills, linkedin, hackerrank, leetcode, instantgram, shopsmart} from "../assets"
+import {html, css, javascript, python, reactjs, nodejs, expressjs, mongodb, redux, tailwind, chakra_ui, greencart, vs_code, github, git, figma, dsa, soft_skills, linkedin, hackerrank, leetcode, shopsmart, uber_clone} from "../assets"
 
 export const navLinks=[
     {
@@ -45,6 +45,18 @@ const technologies = [
       icon: reactjs,
     },
     {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Express JS",
+      icon: expressjs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -61,6 +73,40 @@ const technologies = [
 
   const projects = [
     {
+      name: "Uber Clone",
+      description:
+        [
+          "Integrated Google Maps API for live location tracking and route rendering.",
+          "Enabled JWT-based authentication and secure user session management.",
+          "Designed efficient database schemas for users, captains, and rides to optimize queries."
+        ],
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express JS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind css",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: uber_clone,
+      source_code_link: "https://github.com/pradipkumarmadheshiya/Uber_Clone",
+      live_link: "https://uber-clone-frontend-hhwd.onrender.com"
+    },
+    {
       name: "GreenCart",
       description:
         [
@@ -71,40 +117,17 @@ const technologies = [
         ],
       tags: [
         {
-          name: "react",
+          name: "React JS",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
       image: greencart,
       source_code_link: "https://github.com/pradipkumarmadheshiya/greencart",
       live_link: "https://greencart-drab-eta.vercel.app/"
-    },
-    {
-      name: "Instantgram",
-      description:
-        [
-          "Built a fully functional social media app using React and Tailwind CSS, featuring post creation.",
-          "Designed a responsive, mobile-friendly UI inspired by Instagram, with clean navigation and sidebar-based layout.",
-          "Implemented core social features like Home Feed, Explore, People, Saved Posts.",
-          
-        ],
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: instantgram,
-      source_code_link: "https://github.com/pradipkumarmadheshiya/instantgram",
-      live_link: "https://instantgram-psi.vercel.app/"
     },
     {
       name: "ShopSmart",
@@ -117,11 +140,11 @@ const technologies = [
         ],
       tags: [
         {
-          name: "react",
+          name: "React JS",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],

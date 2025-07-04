@@ -31,10 +31,10 @@ const About = () => {
         </div>
         <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='text-secondary text-[15px] sm:text-[17px] leading [30px] max-w-3xl'>
-        Front-end Developer with hands-on experience in building responsive and user-friendly web applications. Gained a solid
-  understanding of data structures and algorithms using Python, along with proficiency in front-end technologies such as
-  HTML, CSS, JavaScript, React, Redux, Tailwind CSS, and Chakra UI. Developed multiple projects, including e-commerce websites.
-  Eager to contribute to a dynamic development team and grow as a Front-end Developer.
+        Full Stack Web Developer with hands-on experience in building functional, responsive and userfriendly
+web applications. Gained a solid understanding of data structures and algorithms using
+Python, along with proficiency in MERN Stack technologies. Eager to contribute to a dynamic
+development team and grow as a Full Stack Developer.
         </motion.p>
       </div>
     </>
