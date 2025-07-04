@@ -20,13 +20,13 @@ const Hero = () => {
           <p className={`${style.heroSubText} relative z-10`}>I'm a Frontend Developer</p>
           <div className='flex gap-8 mt-4'>
             <a className=" flex justify-center items-center gap-2 w-fit bg-[#915eff] text-white px-4 py-2 rounded hover:bg-[#854dff] transition cursor-pointer z-10"
-              href="/pradip_resume.pdf"
+              href="/pradip-mern-stack.pdf"
               target='_blank'>
               <FaEye className='text-white text-[14px] sm:text-[16px]'/>Resume
             </a>
             <a
-              href="/pradip_resume.pdf"
-              download="pradip_resume.pdf"
+              href="/pradip-mern-stack.pdf"
+              download="pradip-mern-stack.pdf"
               className=" flex justify-center items-center gap-2 w-fit bg-[#915eff] text-white px-4 py-2 rounded hover:bg-[#854dff] transition cursor-pointer z-10">
               <FaDownload className='text-white text-[14px] sm:text-[16px]'/>Resume
             </a>
